@@ -3,7 +3,12 @@ class Story {
   String choice1;
   String choice2;
   String choice3;
-  Story({this.storyText, this.choice1, this.choice2, this.choice3});
+  Story({
+    required this.storyText,
+    required this.choice1,
+    required this.choice2,
+    required this.choice3,
+  });
 }
 
 class IStoryData {

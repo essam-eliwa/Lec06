@@ -19,8 +19,8 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Center(
-        child: FlatButton(
-          color: Colors.grey[350],
+        child: TextButton(
+          style: TextButton.styleFrom(primary: Colors.grey[350]),
           child: Text('View Details'),
           onPressed: () {
             Navigator.push(
@@ -42,8 +42,8 @@ class DetailScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Center(
-        child: FlatButton(
-          color: Colors.grey[350],
+        child: TextButton(
+          style: TextButton.styleFrom(primary: Colors.grey[350]),
           child: Text('Back - Pop!'),
           onPressed: () {
             Navigator.pop(context);
